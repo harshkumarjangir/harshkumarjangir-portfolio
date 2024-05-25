@@ -177,15 +177,15 @@
         <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
                 <input type="hidden" name="access_key" value="8dc7e7cc-b56e-4842-b932-85ab64456ca6">
-                <input type="text" name="text" id="text" placeholder="Full Name">
-                <input type="email" name="" id="" placeholder="Email Address">
+                <input type="text" name="text" id="text" placeholder="Full Name" required>
+                <input type="email" name="" id="" placeholder="Email Address" required>
             </div>
 
             <div class="input-box">
-                <input type="number" name="phone" id="phone" placeholder="Moblie Number">
-                <input type="text" name="email" id="email" placeholder="Email Subject">
+                <input type="number" name="phone" id="phone" placeholder="Moblie Number" required>
+                <input type="text" name="email" id="email" placeholder="Email Subject" required>
             </div>
-                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your Message..."></textarea>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your Message..." required></textarea>
                 <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
